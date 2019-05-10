@@ -2,9 +2,13 @@ import React from 'react';
 import NavElement from '../NavElement/NavElement';
 import './Navigation.css';
 
-const Navigation = () => {
+const Navigation = (props) => {
+  const { style } = props;
   return (
-    <div className="Navigation">
+    <div 
+      className="Navigation" 
+      style={style}>
+      <div className="Items">
       <NavElement 
         image="fas fa-code fa-3x" 
         page="/Portfolio"
@@ -37,6 +41,7 @@ const Navigation = () => {
         pageName="Contact" 
         title="Contact"
       />      
+      </div>
     </div>
   );
 }

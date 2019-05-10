@@ -1,15 +1,57 @@
-.Navigation {
-  display: flex;
-  justify-content: space-evenly;
+.Navigation {  
   text-align: center;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   background-color:white;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
   box-shadow: 0 15px 25px -20px black;
-  padding: 10px;
+}
+
+.Items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .Navigation a {
   color: black;
+}
+
+.fa-code {
+  transition: 0.3s;
+}
+
+.fa-code:hover {
+  color: darkgrey;
+}
+
+.fa-github {
+  transition: 0.3s;
+}
+.fa-github:hover {
+  color: #30c452;
+}
+
+.fa-user {
+  transition: 0.3s;
+}
+.fa-user:hover {
+  color: #0366d6;
+}
+
+.fa-linkedin {
+  transition: 0.3s;
+}
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+
+.fa-envelope {
+  transition: 0.3s;
+}
+.fa-envelope:hover {
+  color: #d74638;
 }

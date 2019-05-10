@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   font-family: 'Playfair Display', serif;
-  font-size: 15pt;
+  font-size: 25px;
   text-indent: 50px;
   margin: 5% 15%;
+  font-weight: bold;
 }

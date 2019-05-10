@@ -6,13 +6,21 @@ import BaselineThumb from './/thumbnails/BaselineThumb.png';
 import './Portfolio.css';
 
 const Portfolio = () => {
+  const style = {
+    position: '-webkit-sticky',
+    position: 'sticky',
+    boxShadow: '0 15px 25px -20px black',
+  };
+
   return (
     <div className="Portfolio">
       <header className="Header">
         <PageTitle>My Work</PageTitle>
       </header>
       <div>
-        <Navigation /> 
+        <Navigation 
+          style={style}
+        /> 
         <PortfolioItem
           title="Baseline"
           image={BaselineThumb}

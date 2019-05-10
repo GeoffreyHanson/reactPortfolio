@@ -50,11 +50,19 @@
 }
 
 .Buttons a:hover {
-  background-color:black;
   color:white;
   transition-duration:0.5s;
   text-decoration:none;
+}
 
+a.LiveButton:hover {
+  background-color: #0366d6;
+  border: solid #0366d6;
+}
+
+a.CodeButton:hover {
+  background-color: #30c452;
+  border: solid #30c452;
 }
 
 .DescriptionHeader {

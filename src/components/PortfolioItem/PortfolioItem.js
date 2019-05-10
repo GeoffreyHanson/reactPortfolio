@@ -23,7 +23,7 @@ const PortfolioItem = (props) => {
             Live
           </a>
           <a
-            className="DemoButton"
+            className="CodeButton"
             href={props.code}
           >
             GitHub
