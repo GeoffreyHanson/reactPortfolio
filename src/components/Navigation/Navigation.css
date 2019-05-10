@@ -1,0 +1,15 @@
+.Navigation {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+  box-shadow: 0 15px 25px -20px black;
+  padding: 10px;
+}
+
+.Navigation a {
+  color: black;
+}

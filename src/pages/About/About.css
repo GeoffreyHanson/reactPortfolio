@@ -1,0 +1,8 @@
+.AboutMe {
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 15pt;
+  text-indent: 50px;
+  margin: 5% 15%;
+}
