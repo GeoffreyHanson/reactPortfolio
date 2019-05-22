@@ -19,12 +19,16 @@ const PortfolioItem = (props) => {
           <a  
             className="LiveButton"
             href={props.demo}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Live
           </a>
           <a
             className="CodeButton"
             href={props.code}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>

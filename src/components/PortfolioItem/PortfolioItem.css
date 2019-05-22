@@ -6,11 +6,13 @@
 }
 
 .Left {
-  margin: 30px;
+  margin: 15px 0px;
 }
 
 .Right {
-  margin: 30px;
+  margin: 15px 0px;
+  max-width: 40%;
+  text-indent: 50px;
 }
 
 .Title {
