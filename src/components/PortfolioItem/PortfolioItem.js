@@ -1,24 +1,27 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Tag from '../Tag/Tag';
 import './PortfolioItem.css';
 
 const PortfolioItem = (props) => {
-  
+  const {
+    tags, title, image, demo, code, children,
+  } = props;
   return (
     <div className="PortfolioItem">
 
       <div className="Left">
-        <h2 className="Title">{props.title}</h2>
-        <img 
-          className="Thumbnail" 
-          src={props.image} 
-          alt={props.title}>
-        </img>
-        <Tag tags={props.tags}></Tag>
+        <h2 className="Title">{title}</h2>
+        <img
+          className="Thumbnail"
+          src={image}
+          alt={title}
+        />
+        <Tag tags={tags} />
         <div className="Buttons">
-          <a  
+          <a
             className="LiveButton"
-            href={props.demo}
+            href={demo}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -26,23 +29,34 @@ const PortfolioItem = (props) => {
           </a>
           <a
             className="CodeButton"
-            href={props.code}
+            href={code}
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
           </a>
-          
+
         </div>
       </div>
 
       <div className="Right">
         <h3 className="DescriptionHeader">Description</h3>
-        <p className="Description">{props.children}</p>
+        <p className="Description">{children}</p>
       </div>
 
     </div>
   );
-}
+};
+
+PortfolioItem.defaultProps = {
+  tags: PropTypes.string,
+  title: PropTypes.string,
+  image: PropTypes.string,
+  demo: PropTypes.string,
+  code: PropTypes.string,
+  children: PropTypes.string,
+};
+
+PortfolioItem.propTypes = PortfolioItem.defaultProps;
 
 export default PortfolioItem;
