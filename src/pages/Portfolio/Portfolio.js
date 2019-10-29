@@ -8,56 +8,48 @@ import BaselineThumb from './thumbnails/BaselineThumb.png';
 import BookSaverThumb from './thumbnails/BookSaverThumb.JPG';
 import './Portfolio.css';
 
-const Portfolio = () => {
-  const style = {
-    position: '-webkit-sticky sticky',
-    // position: 'sticky',
-    boxShadow: '0 15px 25px -20px black',
-  };
-
-  return (
-    <div className="Portfolio">
-      <header className="Header">
-        <PageTitle>My Work</PageTitle>
-      </header>
-      <div>
-        <Navigation
-          className="Navigation"
-          style={style}
-        />
-        <PortfolioItem
-          title="Finger-Gard"
-          image={FGThumb}
-          tags={['WordPress', 'CSS3']}
-          demo="finger-gard.com"
-        >
+const Portfolio = () => (
+  <div className="Portfolio">
+    <header className="Header">
+      <PageTitle>My Work</PageTitle>
+    </header>
+    <div>
+      <Navigation
+        className="Navigation"
+      />
+      <PortfolioItem
+        title="Finger-Gard"
+        image={FGThumb}
+        tags={['WordPress', 'CSS3']}
+        demo="finger-gard.com"
+      >
           An E-commerce site built with WordPress and WooCommerce for Finger-Gard door guards.
-        </PortfolioItem>
-        <PortfolioItem
-          title="Book Checklist"
-          image={BookSaverThumb}
-          tags={['HTML5', 'CSS3', 'ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB']}
-          demo="https://book-saver.herokuapp.com/"
-          code="https://github.com/GeoffreyHanson/book-saver"
-        >
+      </PortfolioItem>
+      <PortfolioItem
+        title="Book Checklist"
+        image={BookSaverThumb}
+        tags={['HTML5', 'CSS3', 'ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB']}
+        demo="https://book-saver.herokuapp.com/"
+        code="https://github.com/GeoffreyHanson/book-saver"
+      >
           Too many books to read? Add them to the list!
-        </PortfolioItem>
-        <PortfolioItem
-          title="Bitcoin Wallet"
-          image={WalletThumb}
-          tags={['HTML5', 'CSS3']}
-          demo="https://codepen.io/geoffreyhanson/pen/qwvYGv"
-          code="https://codepen.io/geoffreyhanson/pen/qwvYGv"
-        >
+      </PortfolioItem>
+      <PortfolioItem
+        title="Bitcoin Wallet"
+        image={WalletThumb}
+        tags={['HTML5', 'CSS3']}
+        demo="https://codepen.io/geoffreyhanson/pen/qwvYGv"
+        code="https://codepen.io/geoffreyhanson/pen/qwvYGv"
+      >
           My replication of a design for a wallet app made my Nina Geometrieva.
-        </PortfolioItem>
-        <PortfolioItem
-          title="Baseline"
-          image={BaselineThumb}
-          tags={['HTML5', 'CSS3', 'NodeJS', 'ExpressJS']}
-          demo="https://geoffreyhanson.github.io/Baseline/"
-          code="https://github.com/GeoffreyHanson"
-        >
+      </PortfolioItem>
+      <PortfolioItem
+        title="Baseline"
+        image={BaselineThumb}
+        tags={['HTML5', 'CSS3', 'NodeJS', 'ExpressJS']}
+        demo="https://geoffreyhanson.github.io/Baseline/"
+        code="https://github.com/GeoffreyHanson"
+      >
           Submit a photo of yourself to the Baseline app,
           and it will be a truly dispassionate and perfectly consistent judge,
           returning scores from the Face++ API algorithms quantifying
@@ -69,10 +61,9 @@ const Portfolio = () => {
           If you are satisfied with your appearance,
           Baseline&apos;s ongoing feedback can warn you that
           you&apos;re revealing more than you think.
-        </PortfolioItem>
-      </div>
+      </PortfolioItem>
     </div>
-  );
-};
+  </div>
+);
 
 export default Portfolio;
