@@ -10,9 +10,9 @@ const Navigation = () => (
     <div className="Items">
       <NavElement
         image="fas fa-code fa-3x"
-        page="/Portfolio"
-        pageName="Portfolio"
-        title="Portfolio"
+        page="/Projects"
+        pageName="Projects"
+        title="Projects"
       />
       <NavElement
         image="fab fa-github fa-3x"
