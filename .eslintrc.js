@@ -8,6 +8,6 @@ module.exports = {
   rules: {
       'react/jsx-filename-extension': 0,
       'indent': ['error', 2],
-      'global-require': 1
+      'global-require': 1,
   }
 }

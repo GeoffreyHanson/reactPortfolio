@@ -1,11 +1,12 @@
 .Navigation {  
+  font-family: 'Fira Code', monospace;
   text-align: center;
   top: 0;
-  background-color:white;
-  padding: 20px;
+  background-color:#f6f1eb;
+  padding: 10px;
   position: -webkit-sticky;
   position: sticky;
-  box-shadow: 0 15px 25px -20px black;
+  /* box-shadow: 0 15px 25px -20px black; */
 }
 
 .Items {

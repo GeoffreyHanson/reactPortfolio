@@ -11,6 +11,7 @@ const Tag = (props) => {
           {' '}
           {tag}
           {' '}
+          {tag === 'WordPress' ? 'Yes' : 'No'}
         </i>
       ))}
     </div>
