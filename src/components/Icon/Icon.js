@@ -8,6 +8,20 @@ const Icon = (props) => {
   const react = { color: '#61dafb' };
   const node = { color: '#68a063' };
 
+  // switch (tag) {
+  //   case 'HTML5':
+  //     return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
+  //   // break;
+
+  //   case 'CSS3':
+  //     return <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />;
+  //   // break;
+
+  //   default:
+  //     return null;
+
+  // };
+
   if (tag === 'HTML5') {
     return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
   }
@@ -42,11 +56,6 @@ const Icon = (props) => {
   }
 
   return null;
-
-  // const result = tag === 'HTML5' ? <i className="fab fa-html5" /> : <p>Not Working</p>;
-  // return (
-  //   result
-  // );
 };
 
 Icon.defaultProps = {
