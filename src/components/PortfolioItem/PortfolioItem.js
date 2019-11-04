@@ -51,8 +51,8 @@ const PortfolioItem = (props) => {
 };
 
 PortfolioItem.defaultProps = {
-  tags: PropTypes.string,
-  icons: PropTypes.string,
+  tags: PropTypes.array,
+  // icons: PropTypes.array,
   title: PropTypes.string,
   image: PropTypes.string,
   demo: PropTypes.string,

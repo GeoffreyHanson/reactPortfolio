@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Fira Code', monospace;  font-size: 22px;
+  color: #444;
   text-indent: 50px;
   margin: 5% 15%;
   /* font-weight: bold; */

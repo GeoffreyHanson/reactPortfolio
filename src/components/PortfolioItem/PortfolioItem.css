@@ -1,5 +1,6 @@
 .PortfolioItem {
   font-family: 'Fira Code', monospace;
+  color: #444;
   background-color: #fffcf7;
   min-height: 425px;
   margin: 50px 10%;
@@ -9,7 +10,8 @@
   justify-content: center;
   /* grid-template-columns: repeat(6, 1fr);  */
   /* grid-template-rows: 40px 230px 25px 50px; */
-  grid-column-gap: 300px;
+  /* column-gap: 300px; */
+  column-gap: 25%;
   grid: 
     ". title title desc desc ." 40px
     ". img img para para ." 230px
@@ -74,6 +76,26 @@
   font-style: normal;
 }
 
+.Icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.Icon i {
+  margin: 10px;
+  /* background: blue; */
+}
+
+.ExpressJS span {
+  margin-left: 10px;
+}
+
+.ExpressJS i {
+  margin: 10px 0px;
+  color: #e9d44d;
+}
+
 .Buttons {
   display: flex;
   justify-content: space-evenly;
@@ -89,19 +111,20 @@
 }
 
 .Buttons a:hover {
-  color:white;
-  transition-duration:0.5s;
+  color: white;
+  transition-duration: 0.5s;
   text-decoration:none;
 }
 
-a.LiveButton:hover {
+.LiveButton:hover {
   background-color: #0366d6;
   border: solid #0366d6;
 }
 
-a.CodeButton:hover {
+.CodeButton:hover {
   background-color: #30c452;
   border: solid #30c452;
+  color: white;
 }
 
 .DescriptionHeader {
