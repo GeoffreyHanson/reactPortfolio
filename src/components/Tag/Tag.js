@@ -1,24 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Tag.css';
+import Icon from '../Icon/Icon';
 
 const Tag = (props) => {
   const { tags } = props;
+  console.log(tags);
   return (
-    <div className="Tag">
+    <div className="Icon">
       {tags.map((tag) => (
-        <i>
-          {' '}
-          {tag}
-          {' '}
-        </i>
+        <Icon tag={tag} />
+        // <i>
+        //   {' '}
+        //   {tag}
+        //   {' '}
+        //   {tag === 'WordPress' ? 'YES' : 'NO'}
+        //   {/* <i className="fab fa-html5" /> */}
+        // </i>
       ))}
     </div>
   );
 };
 
 Tag.defaultProps = {
-  tag: PropTypes.string,
+  tags: PropTypes.arrayOf(PropTypes.string),
 };
 
 Tag.propTypes = Tag.defaultProps;

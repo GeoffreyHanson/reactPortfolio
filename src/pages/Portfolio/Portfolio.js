@@ -21,7 +21,7 @@ const Portfolio = () => (
         title="Finger-Gard"
         image={FGThumb}
         tags={['WordPress', 'CSS3']}
-        demo="finger-gard.com"
+        demo="https://finger-gard.com/"
       >
           An E-commerce site built with WordPress and WooCommerce for Finger-Gard door guards.
       </PortfolioItem>

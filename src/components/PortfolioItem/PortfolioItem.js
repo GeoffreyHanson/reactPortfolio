@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Tag from '../Tag/Tag';
+// import Icons from '../Icons/Icons';
 import './PortfolioItem.css';
 
 const PortfolioItem = (props) => {
@@ -18,6 +19,7 @@ const PortfolioItem = (props) => {
           alt={title}
         />
         <Tag tags={tags} />
+        {/* <Icons icons={icons} /> */}
         <div className="Buttons">
           <a
             className="LiveButton"
@@ -49,7 +51,8 @@ const PortfolioItem = (props) => {
 };
 
 PortfolioItem.defaultProps = {
-  tags: PropTypes.string,
+  tags: PropTypes.array,
+  // icons: PropTypes.array,
   title: PropTypes.string,
   image: PropTypes.string,
   demo: PropTypes.string,
