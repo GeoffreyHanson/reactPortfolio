@@ -9,5 +9,7 @@ body {
   color: #444;
   text-indent: 50px;
   margin: 5% 15%;
+  padding: 5%;
+  background-color: #fffcf7;
   /* font-weight: bold; */
 }
