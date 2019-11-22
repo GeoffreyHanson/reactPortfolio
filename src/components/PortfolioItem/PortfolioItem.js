@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Tag from '../Tag/Tag';
 // import Icons from '../Icons/Icons';
 import './PortfolioItem.css';
+// import './PortfolioItemTest.css';
 
 const PortfolioItem = (props) => {
   const {
@@ -13,13 +14,13 @@ const PortfolioItem = (props) => {
 
       <div className="Left">
         <h2 className="Title">{title}</h2>
-        <div className="ThumbnailWrapper">
-          <img
-            className="Thumbnail"
-            src={image}
-            alt={title}
-          />
-        </div>
+        {/* <div className="ThumbnailWrapper"> */}
+        <img
+          className="Thumbnail"
+          src={image}
+          alt={title}
+        />
+        {/* </div> */}
         <Tag tags={tags} />
         {/* <Icons icons={icons} /> */}
         <div className="Buttons">
