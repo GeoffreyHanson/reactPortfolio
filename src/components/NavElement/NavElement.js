@@ -8,7 +8,7 @@ const NavElement = (props) => {
   } = props;
   return (
     <div className="NavElement">
-      {/* Will need the link added inside. */}
+      {/* Will need the link addesddd inside. */}
       <a
         href={page}
         target={target}
