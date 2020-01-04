@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.e404413a.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.d0a7af84.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.d0a7af84.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.90378ba6.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.90378ba6.js.map",
+    "static/js/2.c43b84a0.chunk.js": "/reactPortfolio/static/js/2.c43b84a0.chunk.js",
+    "static/js/2.c43b84a0.chunk.js.map": "/reactPortfolio/static/js/2.c43b84a0.chunk.js.map",
+    "index.html": "/reactPortfolio/index.html",
+    "precache-manifest.a01c370439872f88fa201c8ff21fcbc7.js": "/reactPortfolio/precache-manifest.a01c370439872f88fa201c8ff21fcbc7.js",
+    "service-worker.js": "/reactPortfolio/service-worker.js",
+    "static/css/main.e404413a.chunk.css.map": "/reactPortfolio/static/css/main.e404413a.chunk.css.map",
+    "static/media/BaselineThumb.png": "/reactPortfolio/static/media/BaselineThumb.79dc1001.png",
+    "static/media/BitcoinWalletThumb.jpg": "/reactPortfolio/static/media/BitcoinWalletThumb.93145a98.jpg",
+    "static/media/BookSaverThumb.JPG": "/reactPortfolio/static/media/BookSaverThumb.09fb2ddc.JPG",
+    "static/media/FG-site-thumb.png": "/reactPortfolio/static/media/FG-site-thumb.d1f9039e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90378ba6.js",
+    "static/js/2.c43b84a0.chunk.js",
+    "static/css/main.e404413a.chunk.css",
+    "static/js/main.d0a7af84.chunk.js"
+  ]
+}
