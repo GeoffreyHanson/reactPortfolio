@@ -30,6 +30,9 @@
 
 .Title {
   text-align: center;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1s;
   /* grid-area: title; */
 }
 
@@ -40,6 +43,9 @@
   max-height: 250px;
   /* grid-area: img; */
   margin: 0 auto;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.5s;
 }
 
 .Tag {
@@ -64,6 +70,9 @@
   display: flex;
   justify-content: center;
   margin-top: 5px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.75s;
 }
 
 .Icon i {
@@ -88,6 +97,9 @@
   display: flex;
   justify-content: center;
   margin: 10px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 2s;
 }
 
 .Buttons a {
@@ -117,6 +129,9 @@
 
 .DescriptionHeader {
   text-align: center;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1s;
   /* font-weight: normal; */
   /* grid-area: desc; */
 }
@@ -124,7 +139,7 @@
 .Description {
   position: relative;
   animation-name: slide;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
 }
 
 @media screen and (min-width: 360px) and (max-width: 1140px) {
