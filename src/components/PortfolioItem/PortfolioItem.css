@@ -106,12 +106,12 @@
 
 .LiveButton:hover {
   background-color: #0366d6;
-  border: solid #0366d6;
+  border: solid #0366d6 2px;
 }
 
 .CodeButton:hover {
   background-color: #30c452;
-  border: solid #30c452;
+  border: solid #30c452 2px;
   color: white;
 }
 
