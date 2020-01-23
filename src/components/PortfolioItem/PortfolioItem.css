@@ -7,6 +7,9 @@
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1s;
 }
 
 .Left {
@@ -27,6 +30,9 @@
 
 .Title {
   text-align: center;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1s;
   /* grid-area: title; */
 }
 
@@ -37,6 +43,9 @@
   max-height: 250px;
   /* grid-area: img; */
   margin: 0 auto;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.5s;
 }
 
 .Tag {
@@ -61,6 +70,9 @@
   display: flex;
   justify-content: center;
   margin-top: 5px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.75s;
 }
 
 .Icon i {
@@ -85,6 +97,9 @@
   display: flex;
   justify-content: center;
   margin: 10px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 2s;
 }
 
 .Buttons a {
@@ -103,19 +118,28 @@
 
 .LiveButton:hover {
   background-color: #0366d6;
-  border: solid #0366d6;
+  border: solid #0366d6 2px;
 }
 
 .CodeButton:hover {
   background-color: #30c452;
-  border: solid #30c452;
+  border: solid #30c452 2px;
   color: white;
 }
 
 .DescriptionHeader {
   text-align: center;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1s;
   /* font-weight: normal; */
   /* grid-area: desc; */
+}
+
+.Description {
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.5s;
 }
 
 @media screen and (min-width: 360px) and (max-width: 1140px) {

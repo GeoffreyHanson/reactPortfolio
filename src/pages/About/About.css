@@ -2,6 +2,12 @@ body {
   background-color: #f6f1eb;
 }
 
+/* .AboutWrapper {
+  position: relative;
+  animation-name: wrapper-slide;
+  animation-duration: 1s;
+} */
+
 .AboutMe {
   display: flex;
   justify-content: center;
@@ -12,6 +18,34 @@ body {
   padding: 5%;
   background-color: #fffcf7;
   /* font-weight: bold; */
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+.AboutText {
+  font-family: 'Fira Code', monospace;  font-size: 22px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.5s;
+}
+
+/* @keyframes wrapper-slide {
+  0% {
+    bottom: -300px;
+  }
+  100% {
+    bottom: 0px;
+  }
+} */
+
+@keyframes slide {
+  0% {
+    bottom: -500px;
+  }
+  100% {
+    bottom: 0px
+  }
 }
 
 @media screen and (max-width : 850px) {

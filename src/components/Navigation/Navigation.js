@@ -19,7 +19,7 @@ const Navigation = () => (
         page="https://github.com/GeoffreyHanson"
         pageName="GitHub"
         target="_blank"
-        title="LinkedIn"
+        title="GitHub"
       />
       <NavElement
         image="fas fa-user fa-3x"

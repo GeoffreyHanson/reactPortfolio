@@ -10,7 +10,8 @@ const About = () => (
     </header>
     <div>
       <Navigation />
-      <h3 className="AboutMe">
+      <div className="AboutMe">
+        <h3 className="AboutText">
         Front-end developer and technology-enthusiast with a passion for minimalist UX solutions.
         College graduate with certification from the University of Minnesota
         in Full Stack development including JavaScript, CSS, and React.js.
@@ -19,7 +20,8 @@ const About = () => (
         Recently developed an E-commerce website for a small business,
         increasing sales and exposure.
         I aim to build aesthetically pleasing and user-intuitive web experiences.
-      </h3>
+        </h3>
+      </div>
     </div>
   </div>
 );
