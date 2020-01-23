@@ -45,7 +45,7 @@
   margin: 0 auto;
   position: relative;
   animation-name: slide;
-  animation-duration: 1.5s;
+  animation-duration: 1.25s;
 }
 
 .Tag {
@@ -72,7 +72,7 @@
   margin-top: 5px;
   position: relative;
   animation-name: slide;
-  animation-duration: 1.75s;
+  animation-duration: 1.35s;
 }
 
 .Icon i {
@@ -99,7 +99,7 @@
   margin: 10px;
   position: relative;
   animation-name: slide;
-  animation-duration: 2s;
+  animation-duration: 1.45s;
 }
 
 .Buttons a {
@@ -131,7 +131,7 @@
   text-align: center;
   position: relative;
   animation-name: slide;
-  animation-duration: 1s;
+  animation-duration: 1.65s;
   /* font-weight: normal; */
   /* grid-area: desc; */
 }
@@ -139,7 +139,7 @@
 .Description {
   position: relative;
   animation-name: slide;
-  animation-duration: 1.5s;
+  animation-duration: 1.75s;
 }
 
 @media screen and (min-width: 360px) and (max-width: 1140px) {
