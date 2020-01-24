@@ -9,9 +9,9 @@ const PortfolioItem = (props) => {
   const {
     tags, title, image, demo, code, children,
   } = props;
+
   return (
     <div className="PortfolioItem">
-
       <div className="Left">
         <h2 className="Title">{title}</h2>
         {/* <div className="ThumbnailWrapper"> */}
@@ -38,7 +38,7 @@ const PortfolioItem = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            Code
           </a>
 
         </div>
