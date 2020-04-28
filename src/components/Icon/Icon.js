@@ -34,7 +34,7 @@ const Icon = (props) => {
     return <i className="fab fa-js fa-2x" title={tag} />;
   }
 
-  if (tag === 'ReactJS') {
+  if (tag === 'React') {
     return <i className="fab fa-react fa-2x" title={tag} style={react} />;
   }
 
