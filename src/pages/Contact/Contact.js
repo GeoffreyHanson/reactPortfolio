@@ -2,8 +2,8 @@ import React from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import PageTitle from '../../components/PageTitle/PageTitle';
 import './Contact.css';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
-// TODO: add actual contact form
 const Contact = () => (
   <div className="Contact">
     <header className="Header">
@@ -11,9 +11,7 @@ const Contact = () => (
     </header>
     <div>
       <Navigation />
-      <h4>Geoffrey Hanson</h4>
-      <h4>Phone: 612-424-1722</h4>
-      <h4>Email: GeoffreyKHanson@gmail.com</h4>
+      <ContactForm />
     </div>
   </div>
 );
