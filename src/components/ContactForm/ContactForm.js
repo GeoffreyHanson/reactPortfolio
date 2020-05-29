@@ -3,6 +3,7 @@
 // Finally, add a <ContactForm/> element whereever you wish to display the form.
 
 import React from "react";
+import './ContactForm.css';
 
 export default class ContactForm extends React.Component {
   constructor(props) {
@@ -16,18 +17,28 @@ export default class ContactForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/mjvaywbz"
-        method="POST"
-      >
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+      <div className="contact-wrapper">
+        <form
+          className="contact-form"
+          onSubmit={this.submitForm}
+          action="https://formspree.io/mjvaywbz"
+          method="POST"
+        >
+          <label className="email-label">Email</label>
+          <br />
+          <input className="email-input" type="email" name="email" />
+          <br />
+          <label className="message-label">Message</label>
+          <br />
+          <textarea className="message-input" type="text" name="message" />
+          <br />
+          {status === "SUCCESS" ? <p>Thanks!</p> : <button className="contact-button">Send</button>}
+          {status === "ERROR" && <p>
+            An error occured. Please send your message to GeoffreyKHanson@gmail.com
+            </p>
+          }
+        </form>
+      </div>
     );
   }
 

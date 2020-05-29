@@ -11,20 +11,19 @@ body {
 .AboutMe {
   display: flex;
   justify-content: center;
-  font-family: 'Fira Code', monospace;  font-size: 22px;
   color: #444;
   text-indent: 50px;
   margin: 5% 15%;
   padding: 5%;
   background-color: #fffcf7;
-  /* font-weight: bold; */
   position: relative;
   animation-name: slide;
   animation-duration: 1s;
 }
 
 .AboutText {
-  font-family: 'Fira Code', monospace;  font-size: 22px;
+  font-family: 'Fira Code', monospace;  
+  font-size: 22px;
   position: relative;
   animation-name: slide;
   animation-duration: 1.5s;

@@ -1,0 +1,71 @@
+.contact-wrapper {
+  /* background-color: blue; */
+  /* display: flex; */
+}
+
+.contact-form {
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1s;
+  font-family: 'Fira Code', monospace;
+  font-size: 22px;
+  color: #444;
+  margin: 5% auto;
+  padding: 5%;
+  background-color: #fffcf7;
+  width: 600px;
+}
+
+.email-label {
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.1s;
+}
+
+.email-input {
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.1s;
+}
+
+.message-label {
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.2s;
+}
+
+.message-input {
+  width: 100%;
+  height: 100px;
+  font-size: 12pt;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.2s;
+}
+
+.contact-button {
+  margin: 25px 0;
+  color: #444444;
+  background-color: #fffcf7;
+  border: solid #444444 2px;
+  border-radius: 25px;
+  padding: 4px 15px 5px 15px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.3s;
+  font-size: 20px;
+}
+
+.contact-button:hover {
+  color: #fffcf7;
+  transition-duration: 0.3s;
+  background-color: #444444;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-form {
+    width: 100%;
+  }
+}

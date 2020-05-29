@@ -103,8 +103,8 @@
 }
 
 .Buttons a {
-  color: black;
-  border: solid black 2px;
+  color: #444444;
+  border: solid #444444 2px;
   border-radius: 25px;
   padding: 8px 30px 10px 30px;
   margin: 0 20px;
@@ -113,7 +113,7 @@
 .Buttons a:hover {
   color: white;
   transition-duration: 0.5s;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .LiveButton:hover {
