@@ -12,14 +12,10 @@ const About = () => (
       <Navigation />
       <div className="AboutMe">
         <h3 className="AboutText">
-        Front-end developer and technology-enthusiast with a passion for minimalist UX solutions.
-        College graduate with certification from the University of Minnesota
-        in Full Stack development including JavaScript, CSS, and React.js.
-        Through several years of experience in customer service,
-        I have developed strong communication skills that aid my affinity for team-oriented work.
-        Recently developed an E-commerce website for a small business,
-        increasing sales and exposure.
-        I aim to build aesthetically pleasing and user-intuitive web experiences.
+          Front-end developer with a passion for increasing accessibility to information. 
+          College graduate with certification from the University of Minnesota in Full Stack development. 
+          Developed strong communication skills through five years of customer service experience, aiding an affinity for team-oriented work.          Recently developed an e-commerce website for a small business, increasing sales and exposure. 
+          Aims to build aesthetically pleasing and user-intuitive web experiences.
         </h3>
       </div>
     </div>
