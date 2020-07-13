@@ -7,55 +7,73 @@ const Icon = (props) => {
   const css3 = { color: '#254bdd' };
   const react = { color: '#61dafb' };
   const node = { color: '#68a063' };
+  
+  switch (tag) {
+    case 'HTML5':
+      return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
 
-  // switch (tag) {
-  //   case 'HTML5':
-  //     return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
-  //   // break;
+    case 'CSS3':
+      return <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />;
 
-  //   case 'CSS3':
-  //     return <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />;
-  //   // break;
+    case 'JS':
+      return <i className="fab fa-js fa-2x" title={tag} />;
 
-  //   default:
-  //     return null;
+    case 'React':
+      return <i className="fab fa-react fa-2x" title={tag} style={react} />;
 
-  // };
+    case 'NodeJS':
+      return <i className="fab fa-node-js fa-2x" title={tag} style={node} />;
 
-  if (tag === 'HTML5') {
-    return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
-  }
+    case 'ExpressJS':
+      return (
+        <div className="ExpressJS">
+          <span>Express</span>
+          <i className="fab fa-js fa-2x" title={tag} />
+        </div>
+      );
 
-  if (tag === 'CSS3') {
-    return <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />;
-  }
+    case 'WordPress':
+      return <i className="fab fa-wordpress-simple fa-2x" title={tag} />;
 
-  if (tag === 'JS') {
-    return <i className="fab fa-js fa-2x" title={tag} />;
-  }
+    default:
+      return null;
+  };
 
-  if (tag === 'React') {
-    return <i className="fab fa-react fa-2x" title={tag} style={react} />;
-  }
+  // If statement syntax
+  // if (tag === 'HTML5') {
+  //   return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
+  // }
 
-  if (tag === 'NodeJS') {
-    return <i className="fab fa-node-js fa-2x" title={tag} style={node} />;
-  }
+  // if (tag === 'CSS3') {
+  //   return <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />;
+  // }
 
-  if (tag === 'ExpressJS') {
-    return (
-      <div className="ExpressJS">
-        <span>Express</span>
-        <i className="fab fa-js fa-2x" title={tag} />
-      </div>
-    );
-  }
+  // if (tag === 'JS') {
+  //   return <i className="fab fa-js fa-2x" title={tag} />;
+  // }
 
-  if (tag === 'WordPress') {
-    return <i className="fab fa-wordpress-simple fa-2x" title={tag} />;
-  }
+  // if (tag === 'React') {
+  //   return <i className="fab fa-react fa-2x" title={tag} style={react} />;
+  // }
 
-  return null;
+  // if (tag === 'NodeJS') {
+  //   return <i className="fab fa-node-js fa-2x" title={tag} style={node} />;
+  // }
+
+  // if (tag === 'ExpressJS') {
+  //   return (
+  //     <div className="ExpressJS">
+  //       <span>Express</span>
+  //       <i className="fab fa-js fa-2x" title={tag} />
+  //     </div>
+  //   );
+  // }
+
+  // if (tag === 'WordPress') {
+  //   return <i className="fab fa-wordpress-simple fa-2x" title={tag} />;
+  // }
+
+  // return null;
 };
 
 Icon.defaultProps = {
