@@ -19,7 +19,7 @@ const Portfolio = () => (
       <PortfolioItem
         title="React Drum Kit"
         image={DrumThumb}
-        tags={['CSS3', 'React']}
+        tags={['HTML5', 'CSS3', 'React']}
         demo="https://drum-kit-react.netlify.app/"
         code="https://github.com/GeoffreyHanson/drum-kit"
       >
@@ -28,7 +28,7 @@ const Portfolio = () => (
       <PortfolioItem
         title="Finger-Gard"
         image={FGThumb}
-        tags={['WordPress', 'CSS3']}
+        tags={['CSS3', 'WordPress']}
         demo="https://finger-gard.com/"
       >
           An E-commerce site built with WordPress and WooCommerce for Finger-Gard door guards.
