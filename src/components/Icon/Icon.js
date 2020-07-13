@@ -8,38 +8,66 @@ const Icon = (props) => {
   const react = { color: '#61dafb' };
   const node = { color: '#68a063' };
   
-  switch (tag) {
-    case 'HTML5':
-      return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
+  const iconOptions = {
+    'HTML5': <i className="fab fa-html5 fa-2x" title={tag} style={html5} />,
+    'CSS3': <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />,
+    'JS': <i className="fab fa-js fa-2x" title={tag} />,
+    'React': <i className="fab fa-react fa-2x" title={tag} style={react} />,
+    'NodeJS': <i className="fab fa-node-js fa-2x" title={tag} style={node} />,
+    'ExpressJS': (
+      <div className="ExpressJS">
+        <span>Express</span>
+        <i className="fab fa-js fa-2x" title={tag} />
+      </div>
+    ),
+    'WordPress': <i className="fab fa-wordpress-simple fa-2x" title={tag} />,
+  }
 
-    case 'CSS3':
-      return <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />;
+  return (
+    <>
+      {iconOptions[tag]}
+    </>
+  );
 
-    case 'JS':
-      return <i className="fab fa-js fa-2x" title={tag} />;
 
-    case 'React':
-      return <i className="fab fa-react fa-2x" title={tag} style={react} />;
+  
+  // Switch case syntax
 
-    case 'NodeJS':
-      return <i className="fab fa-node-js fa-2x" title={tag} style={node} />;
+  // switch (tag) {
+  //   case 'HTML5':
+  //     return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
 
-    case 'ExpressJS':
-      return (
-        <div className="ExpressJS">
-          <span>Express</span>
-          <i className="fab fa-js fa-2x" title={tag} />
-        </div>
-      );
+  //   case 'CSS3':
+  //     return <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />;
 
-    case 'WordPress':
-      return <i className="fab fa-wordpress-simple fa-2x" title={tag} />;
+  //   case 'JS':
+  //     return <i className="fab fa-js fa-2x" title={tag} />;
 
-    default:
-      return null;
-  };
+  //   case 'React':
+  //     return <i className="fab fa-react fa-2x" title={tag} style={react} />;
+
+  //   case 'NodeJS':
+  //     return <i className="fab fa-node-js fa-2x" title={tag} style={node} />;
+
+  //   case 'ExpressJS':
+  //     return (
+  //       <div className="ExpressJS">
+  //         <span>Express</span>
+  //         <i className="fab fa-js fa-2x" title={tag} />
+  //       </div>
+  //     );
+
+  //   case 'WordPress':
+  //     return <i className="fab fa-wordpress-simple fa-2x" title={tag} />;
+
+  //   default:
+  //     return null;
+  // };
+
+
 
   // If statement syntax
+
   // if (tag === 'HTML5') {
   //   return <i className="fab fa-html5 fa-2x" title={tag} style={html5} />;
   // }
