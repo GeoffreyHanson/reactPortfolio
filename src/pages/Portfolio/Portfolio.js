@@ -24,7 +24,7 @@ const Portfolio = () => (
         demo="https://nightowl-coffee.netlify.app"
         code="https://github.com/GeoffreyHanson/nightowl"
       >
-        Uses the Yelp API to grab the closest coffee shops to the user's location
+        This React app uses the Yelp API to grab the closest coffee shops to the user's location
         and sorts them based on their closing times with priority for overnight shops.
       </PortfolioItem>
       <PortfolioItem
@@ -35,7 +35,7 @@ const Portfolio = () => (
         code="https://github.com/GeoffreyHanson/drum-kit"
       >
         A keyboard controlled drum kit <br /> 
-        re-engineered with React Hooks and dressed in neumorphic styling.
+        re-engineered in React with Hooks and dressed in neumorphic styling.
       </PortfolioItem>
       <PortfolioItem
         title="Finger-Gard"
