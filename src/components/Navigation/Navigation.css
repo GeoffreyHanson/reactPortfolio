@@ -36,7 +36,7 @@
 }
 
 .fa-code:hover {
-  color: darkgrey;
+  color: #6699cc;
 }
 
 .fa-github {
@@ -50,7 +50,7 @@
   transition: 0.3s;
 }
 .fa-user:hover {
-  color: #4267b2;
+  color: darkgray;
 }
 
 .fa-linkedin {
