@@ -1,19 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Icon.css';
 
 const Icon = (props) => {
   const { tag } = props;
-  const html5 = { color: '#e54c21' };
-  const css3 = { color: '#254bdd' };
-  const react = { color: '#61dafb' };
-  const node = { color: '#68a063' };
+  // const html5 = { color: '#e54c21' };
+  // const css3 = { color: '#254bdd' };
+  // const react = { color: '#61dafb' };
+  // const node = { color: '#68a063' };
+  // const js = { color: }
   
+  // Enum syntax
   const iconOptions = {
-    'HTML5': <i className="fab fa-html5 fa-2x" title={tag} style={html5} />,
-    'CSS3': <i className="fab fa-css3-alt fa-2x" title={tag} style={css3} />,
-    'JS': <i className="fab fa-js fa-2x" title={tag} />,
-    'React': <i className="fab fa-react fa-2x" title={tag} style={react} />,
-    'NodeJS': <i className="fab fa-node-js fa-2x" title={tag} style={node} />,
+    'HTML5': <i className="fab fa-html5 fa-2x" title={tag}  />,
+    'CSS3': <i className="fab fa-css3-alt fa-2x" title={tag}  />,
+    'JavaScript': <i className="fab fa-js fa-2x" title={tag} />,
+    'React': <i className="fab fa-react fa-2x" title={tag}  />,
+    'NodeJS': <i className="fab fa-node-js fa-2x" title={tag} />,
     'ExpressJS': (
       <div className="ExpressJS">
         <span>Express</span>
