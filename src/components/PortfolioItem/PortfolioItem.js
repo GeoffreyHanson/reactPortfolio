@@ -29,22 +29,22 @@ const PortfolioItem = (props) => {
           <Tag tags={tags} />
           {/* <Icons icons={icons} /> */}
           <div className="Buttons">
-            <a
+            {demo && <a
               className="LiveButton"
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
             >
               Live
-            </a>
-            <a
+            </a>}
+            {code && <a
               className="CodeButton"
               href={code}
               target="_blank"
               rel="noopener noreferrer"
             >
               Code
-            </a>
+            </a>}
 
           </div>
         </div>

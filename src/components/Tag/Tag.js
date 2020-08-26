@@ -5,7 +5,7 @@ import Icon from '../Icon/Icon';
 
 const Tag = (props) => {
   const { tags } = props;
-  console.log(tags);
+  // console.log(tags);
   return (
     <div className="Icon">
       {tags.map((tag) => (
