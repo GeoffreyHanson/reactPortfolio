@@ -2,10 +2,12 @@ import React from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import PageTitle from '../../components/PageTitle/PageTitle';
 import PortfolioItem from '../../components/PortfolioItem/PortfolioItem';
+
+import NightowlThumb from './thumbnails/nightowl-thumb.png';
+import InteractiveMapThumb from './thumbnails/interactive-map.png';
+import DrumThumb from './thumbnails/react-drum-kit.png';
 import FGThumb from './thumbnails/FG-site-thumb.png';
 import WalletThumb from './thumbnails/BitcoinWalletThumb.jpg';
-import DrumThumb from './thumbnails/react-drum-kit.png';
-import NightowlThumb from './thumbnails/nightowl-thumb.png';
 import './Portfolio.css';
 
 const Portfolio = () => (
@@ -24,7 +26,7 @@ const Portfolio = () => (
         demo="https://nightowl-coffee.netlify.app"
         code="https://github.com/GeoffreyHanson/nightowl"
       >
-        This React app uses the Yelp API to grab the closest coffee shops to the user's location
+        This app uses the Yelp API to grab the closest coffee shops to the user's location
         and sorts them based on their closing times with priority for overnight shops.
       </PortfolioItem>
       <PortfolioItem
@@ -35,13 +37,25 @@ const Portfolio = () => (
         code="https://github.com/GeoffreyHanson/drum-kit"
       >
         A keyboard controlled drum kit <br /> 
-        re-engineered in React with Hooks and dressed in neumorphic styling.
+        re-engineered in React with Hooks to better understand event handling 
+        and dressed in neumorphic styling.
+      </PortfolioItem>
+      <PortfolioItem
+        title="Interactive Map"
+        image={InteractiveMapThumb}
+        tags={['HTML5', 'CSS3', 'WordPress']}
+        demo="https://uni-engineer.com/#igm-live-filter-3207"
+        code=""
+      >
+        An interactive map made for Uni-Systems Engineering with custom styling for all 
+        map nodes, hover text, buttons, and popup content.
       </PortfolioItem>
       <PortfolioItem
         title="Finger-Gard"
         image={FGThumb}
         tags={['CSS3', 'WordPress']}
         demo="https://finger-gard.com"
+        code=""
       >
         An E-commerce site built with WordPress, WooCommerce, Elementor, and custom CSS for Finger-Gard door guards.
       </PortfolioItem>
