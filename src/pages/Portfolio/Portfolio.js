@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import PageTitle from '../../components/PageTitle/PageTitle';
 import PortfolioItem from '../../components/PortfolioItem/PortfolioItem';
-
+import SkywayThumb from './thumbnails/stpaul-skyway.png';
 import NightowlThumb from './thumbnails/nightowl-thumb.png';
 import InteractiveMapThumb from './thumbnails/interactive-map.png';
 import DrumThumb from './thumbnails/react-drum-kit.png';
@@ -19,6 +19,15 @@ const Portfolio = () => (
       <Navigation
         className="Navigation"
       />
+      <PortfolioItem
+        title="St. Paul Skyway Map"
+        image={SkywayThumb}
+        tags={['HTML5', 'CSS3', 'JavaScript', 'React']}
+        demo="https://stpaul-skyway.netlify.app/"
+        code="https://github.com/GeoffreyHanson/stpaul-skyway-app/"
+      >
+        Worked with a small team to create a mobile-first prototype app using React and Google APIs to help users through the Saint Paul Skyways.
+      </PortfolioItem>
       <PortfolioItem
         title="Nightowl"
         image={NightowlThumb}
