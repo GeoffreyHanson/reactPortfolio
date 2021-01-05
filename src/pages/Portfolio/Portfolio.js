@@ -20,7 +20,7 @@ const Portfolio = () => (
         className="Navigation"
       />
       <PortfolioItem
-        title="St. Paul Skyway Map"
+        title="St Paul Skyway Map"
         image={SkywayThumb}
         tags={['HTML5', 'CSS3', 'JavaScript', 'React']}
         demo="https://stpaul-skyway.netlify.app/"
